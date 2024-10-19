@@ -1,0 +1,786 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.displaynone{
+    display: none;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+footer p{
+    color: grey;
+    font-size: 20px;
+}
+
+.pavandesign{
+    background: linear-gradient(90deg, #E70FAA -2.06%, #E70FAA 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+
+.pavandesign1{
+    background: linear-gradient(90deg, #9b0fe7 -2.06%, #9b0fe7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+
+.NavMobileMain{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.Racoon{
+    border-radius: 50%;
+    width: 4.5rem;
+    margin: 10px;
+}
+
+.Hamburger{
+    margin: 30px;
+    width: 1.7rem;
+}
+
+
+.NavMobileNav{
+   padding:15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+
+.NavMobileNav a{
+ text-decoration: none;
+ color: black;
+ font-size: 1.2rem;
+ font-family: "DM Sans", sans-serif;
+ 
+}
+
+
+
+
+
+.NavIcons{
+    display: flex;
+    padding-top:15px;
+    justify-content: center;
+    gap:85px;
+}
+
+
+.NavCenter{
+    padding-top:12rem;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    gap: 55px;
+}
+
+
+.NavCenter img{
+    width: 11.5rem;
+    border-radius: 50%;
+    
+}.NavCenter p {
+    font-size: 1.3rem;
+    margin-left: 25px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: bold;
+}
+
+
+
+.NavIcons{
+    color: black;
+}
+
+
+
+.ColorNavCenter{
+    
+    background: linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+
+
+@media (min-width: 1600px){
+
+    .NavMobileMain{
+        display: flex;
+        justify-content:space-between;
+        
+    }
+
+    .Racoon{
+        margin-left: 90px;
+    }
+    
+    .NadesktopNav{
+        display: inline;
+        padding:15px;
+        display: flex;
+       
+        gap: 30px;
+        
+    }
+    .Hamburger{
+        display: none;
+    }
+
+
+    .NavMobileNav{
+        display: none;
+    }
+    .NadesktopNav a{
+        text-decoration: none;
+ color: black;
+ font-size: 1.2rem;
+ font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .NavdesktopIcons{
+        display: inline;
+        display: flex;
+        gap: 50px;
+        
+        
+    }
+
+    .NadesktopNav{
+        margin-left:70px;
+        gap: 50px;
+    }
+
+    .NavIcons{
+        display: none;
+    }
+
+
+    .NavCenter{
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .NavCenter p{
+        font-size: 2.9rem;
+        color: #42446E;
+    }
+    .NavCenter img{
+        width: 16rem;
+    }
+
+    footer{
+        margin-top:2.5rem ;
+
+    }
+
+    .HomeFooter{
+        margin-top: 330px;
+    }
+}
+
+
+
+
+/* ABOUT.html */
+
+
+
+@media (min-width: 1600px){
+.ColorH2{
+    color: #42446E;
+    font-size: 2.3rem;
+}
+.AboutMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    justify-content: center;
+    padding: 20px;
+      
+
+} 
+.blyat{
+    display: none;
+    
+    
+  
+}
+
+.aboutme{
+align-items: center;
+
+}
+
+}
+
+.AboutMain{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+     margin-left:20px ;
+      
+
+} 
+.aboutme{
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    gap: 35px;
+    font-family: "DM Sans", sans-serif;
+}
+
+
+
+.aboutme p{
+    color: rgb(80, 79, 79);
+}
+
+
+
+.work{
+    
+    border-bottom: 1px solid rgb(79, 79, 79);
+    margin-top: 15px;
+    font-family: "DM Sans", sans-serif;
+    border-width:60% ;
+}
+
+
+ .work1{
+    border-top: 1px solid rgb(79, 79, 79);
+    margin-bottom: 25px;
+    
+ 
+} 
+
+
+.work h2 {
+    font-size: 1.5rem;
+    margin-bottom:25px;
+}
+
+.company{
+    display: flex;
+    gap:100px;
+    margin-bottom: 15px;
+}
+
+
+
+.location{
+    display: flex;
+    gap:190px;
+    margin-bottom: 15px;
+}
+
+h3{
+    font-size: 1rem;
+}
+
+
+
+
+.title{
+    display: flex;
+    gap:190px;
+    margin-bottom: 15px;
+}
+
+.title h3{
+    color: rgb(79, 79, 79);
+    
+
+}
+
+
+.title button{
+   margin-right: 10px;
+   font-family: "DM Sans", sans-serif;
+    background-color: #d4fbd4;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 50px;
+    color: #008000;
+    border: none;
+}
+
+
+
+
+/* Techstack.html */
+
+
+
+
+@media (min-width: 1600px){
+    .TechStackLanguage{
+      grid-template-columns: repeat(9,210px)  !important; 
+        grid-template-rows: repeat(6,1fr ) !important;
+  
+        
+        
+    }
+     .TeckstackHide{
+        display: none;
+     }
+    .TechStackHeader{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+       position:relative ;
+       left: 255px;
+       top: 120px;
+    }
+
+
+    .TechStackHeader h1{
+        font-size: 2.5rem;
+        color: #42446E;
+    }
+
+    .TechStackHeader p{
+        font-size: 1.3rem;
+    }
+
+    .html{
+        grid-column: 2/2!important;
+        grid-row: 4/4!important;
+    }
+    .css{
+        grid-column: 3/3;
+        grid-row: 4/4;
+
+    }
+
+    .js{
+        grid-column: 4/4;
+        grid-row: 4/4;
+        
+    }
+
+
+    .react{
+        grid-column: 5/5;
+        grid-row: 4/4;
+
+    }
+
+    .vecctor{
+        grid-column: 6/6;
+        grid-row: 4/4;
+        
+    }
+
+    .wave{
+        grid-column: 7/7;
+        grid-row: 4/4;
+    }
+
+    .B{
+        grid-column: 8/8;
+        grid-row: 4/4;
+        
+    }
+
+
+
+
+    
+
+    
+    .vscode{
+        grid-column: 2/2!important;
+        grid-row: 5/5;
+    }
+
+
+    .git{
+        grid-column: 3/3 !important ;
+        grid-row: 5/5;
+
+    }
+
+    .github{
+        grid-column: 4/4 !important;
+        grid-row: 5/5 !important;
+
+    }
+
+    .superman{
+
+        grid-column: 5/5!important;
+        grid-row: 5/5!important;
+
+    }
+
+    .vimlogo{
+        grid-column: 6/6!important;
+        grid-row: 5/5!important;
+
+    }
+
+    .pycharm{
+        grid-column: 7/7!important;
+        grid-row: 5/5!important;
+
+    }
+
+    .sass{
+        grid-column: 8/8;
+        grid-row: 5/5;
+
+
+    }
+
+    .TechStackFooter{
+        position:relative;
+        top: 35px !important;
+    }
+
+
+    
+}
+
+
+
+.TechStackHeader{
+    margin: 10px;
+    font-family: "DM Sans", sans-serif
+
+}
+
+.headertechkstack{
+    grid-column: 1/1;
+    grid-row: 3/3;
+    font-family: "DM Sans", sans-serif
+}
+
+.vscode{
+    grid-column: 1/1;
+    grid-row: 5/5;
+
+}
+
+.git{
+    grid-column: 2/2;
+    grid-row: 5/5;
+
+    
+
+}
+
+.github{
+    grid-column: 3/3;
+    grid-row: 4/4;
+
+}
+
+.superman{
+
+    grid-column: 4/4;
+    grid-row: 4/4;
+
+}
+
+.vimlogo{
+    grid-column: 1/1;
+    grid-row: 4/4;
+
+}
+
+.pycharm{
+    grid-column: 2/2;
+    grid-row: 4/4;
+
+}
+
+
+
+.headertechkstack{
+    position: relative;
+    left: 5px;
+    top: 25px;
+}
+
+
+.TechStackLanguage{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr ;
+    grid-template-rows: repeat(6,1fr ); 
+    margin: 10px;
+    
+
+}
+
+.TechStackLanguage img{
+    width: 5.0rem;
+}
+
+.tools{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    gap: 15px;
+    margin: 10px;
+
+
+}
+.tools img{
+    width: 70px;
+}
+
+
+
+.TechStackFooter{
+    position:relative;
+    top: 105px;
+}
+
+/* projects.html */
+
+
+@media (min-width: 1600px){
+    .ProjectFlexContainer{
+        display: grid !important;
+        grid-template-columns: repeat(5,300px);
+       grid-template-rows: repeat(2,300px) !important; 
+       
+       margin-left: 60px;
+      
+    
+    }
+
+    .projects{
+        display: flex;
+        flex-direction: column;
+       justify-content: center;
+       margin-left:9rem ;
+       margin-bottom: 4rem;
+       
+      }
+
+    .projects img{
+        width: 12vw;
+        border-radius: 5px;
+    }
+
+
+    .theproject{
+        grid-column: 4/4;
+    }
+
+    .projects1{
+        width: 11.9vw;
+        font-size: 13px;
+    }
+
+    .ProjectImg{
+        grid-column: 3/3;
+        grid-row: 1/1;
+        display: inline !important;
+        
+    }
+
+
+    .ProjectImgOne{
+        grid-column: 3/3;
+        grid-row: 2/2;
+        display: inline !important;
+        
+    }
+   
+       
+       
+       .ProjectImgTwo{
+         display: inline !important;
+        grid-column: 4/4;
+        grid-row: 2/2;
+
+           
+       }
+       
+       
+       .ProjectImgTree{
+        grid-column: 2/2 ;
+        grid-row: 2/2;
+        display: inline !important;
+        
+    }
+
+
+    
+    .theprojects{
+        grid-column: 2/2;
+    
+      
+    }
+ .DesktopProjectsInfo p{
+    display: inline;
+ }
+
+
+ .DesktopProjectsInfo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+ }
+
+ .DesktopProjectsInfo h2{
+    color: #42446E;
+    
+
+ }
+}
+
+
+
+.ProjectsDisplayNone{
+    display: none;
+}
+.projects{
+  display: flex;
+  flex-direction: column;
+    width:75%;
+    font-family: "DM Sans", sans-serif
+    
+    
+}
+
+.projects1{
+  
+    padding: 5px;
+    background-color: rgba(226, 226, 226, 0.622);
+    border-radius: 10px;
+
+}
+
+
+.spantechstack{
+
+    font-weight:bold;
+}
+
+
+
+.ProjectLinks{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 10px;
+    padding: 2px;
+    
+}
+
+.ProjectLinks a{
+   
+    color:black;
+}
+
+.ProjectLinks img{
+    width: 15px;
+    position: relative;
+    top: 3px;
+    right:9px;
+   
+}
+
+
+.ProjectFlexContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+
+.DesktopProjectsInfo{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    padding: 20px;
+    font-family: "DM Sans", sans-serif;
+}
+
+
+
+
+/* contact.html */
+@media (min-width: 1600px){
+
+    .DisplayNonecontactmainPhone{
+        display: none;
+ 
+
+        
+    }
+
+    .DesktopContact{
+        display: inline !important;
+        font-size: 2.2rem;
+        font-family: "DM Sans", sans-serif
+    }
+
+    .DesktopContact h2{
+        color: #35386a;
+        margin-left: 700px;
+        margin-top: 250px;
+
+    }
+    .DesktopContact span{
+        background: linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+    }
+    .ContactFooter{
+        margin-top: 400px !important;
+    }
+
+
+
+
+}
+
+.DesktopContact{
+    display: none;
+}
+.contactmainPhone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+      font-family: "DM Sans", sans-serif;
+
+}
+
+
+.contacth2{
+    background: linear-gradient(90deg, #ae13f5 -2.06%, #E70FAA 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    
+
+}
+
+.ContactFooter{
+    margin-top: 650px;
+}
+
+
+
